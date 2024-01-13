@@ -67,12 +67,80 @@ h3{
     font-size: 50px;
     color: darkolivegreen;
 }
-h1{font-size: 100px;
+.h1{font-size: 100px;
     color: darkslategrey;
 }
 p{
-    font-size: 20px;
-    max-width: 50%;
+    font-size: 1.4rem;
+    width: 50%;
     margin-bottom: 30px;
     color: rgb(92, 65, 65);
 }
+
+.title{
+    color: darkgray;
+    
+    text-align: center;
+     font-size: 7rem;
+    background: rgb(110, 131, 139);
+
+}
+
+.my-details{display: flex;
+     gap:60px; background-color: rgb(203, 211, 189);
+      padding: 5%;
+    }
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    nav{
+        height: auto;
+    }
+
+    nav, .banner1, .my-details{
+        flex-direction: column;
+    }
+    .h1{
+        font-size: 80px;
+    }
+    nav ul{
+        margin-left: 0;
+        font-size: 10px;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .button{
+       font-size: 10px;
+       padding: 5px 0px;
+    }
+
+    p{
+     width: 100%;
+     margin-bottom: 20px;
+    }
+
+    .title{
+        font-size: 30px;
+    }
+    .name{
+        margin-left: 20px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
